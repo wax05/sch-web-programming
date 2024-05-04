@@ -1,0 +1,87 @@
+* {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+p {
+    margin: 0;
+    padding-top: 3px;
+}
+
+h1 {
+    display: inline-block;
+    margin: auto 0 auto 0;
+}
+
+table {
+    margin-bottom: 10px;
+    border: 1px #a2aaad solid;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #121a35;
+    margin-right: 3px;
+}
+
+td {
+    background-color: #f5f2ee;
+    border: 1px #a2aaad solid;
+    padding: 15px 20px 15px 20px;
+}
+
+nav {
+    display: flex;
+}
+
+input {
+    padding: 10px;
+    width: 50%;
+    margin: 0 5px 0 5px;
+}
+
+td:hover {
+    background-color: #808080;
+    color: #f5f2ee;
+    transition-duration: 0.3s;
+}
+
+.nav-container {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.nav-element {
+    background-color: #9cd0ff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.nav-element:hover {
+    background-color: #7eadd5;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+.dit {
+    margin: 0;
+    margin-bottom: 5px !important;
+}
+
+.container {
+    margin: 10px;
+}
+
+.flex-wrap {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.s-con:nth-child(2) {
+    margin-left: 0;
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>자기소개</title>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="master-container">
+            <div class="container title">
+                <h1>자기 소개 페이지</h1>
+                <div class="nav-container">
+                    <nav>
+                        <a href="#hobby">
+                            <div class="nav-element">취미</div>
+                        </a>
+                        <a href="#dream">
+                            <div class="nav-element">꿈</div>
+                        </a>
+                        <a href="#fav-book">
+                            <div class="nav-element">좋아하는 책</div></a
+                        >
+                        <a href="#email">
+                            <div class="nav-element">이메일 주소</div></a
+                        >
+                        <a href="#schedule">
+                            <div class="nav-element">시간표</div></a
+                        >
+                    </nav>
+                </div>
+            </div>
+            <hr />
+            <div class="container about-me">
+                <h2>안녕하세요! 저는 심지섭입니다</h2>
+                <p>
+                    순천향대학교에서 컴퓨터공학을 전공하고 있는 대학교 1학년
+                    학생입니다. 프로그래밍과 웹개발, 그래픽스에 큰 관심이 있어
+                    이 분야를 더 깊게 공부하고싶습니다.
+                </p>
+            </div>
+            <hr />
+            <div class="flex-wrap">
+                <div class="container hobby">
+                    <h3 id="hobby">[취미]</h3>
+                    <p>
+                        제 취미는 책 읽기와 음악 감상입니다. 여러 장르의 책을
+                        읽으며 새로운 지식을 얻는 것을 좋아해요. 또한, 다양한
+                        음악을 들으며 휴식을 취하는것을 좋아합니다.
+                    </p>
+                </div>
+                <div class="container dream">
+                    <h3 id="dream">[꿈]</h3>
+                    <p>
+                        제 꿈은 모든 분야를 아우르는 풀스택 개발자가 꿈입니다.
+                        임베디드, 그래픽스, 웹, 어플리케이션, 시스템 등등을
+                        할수있는 프로그래머가 되는것이 제 꿈입니다.
+                    </p>
+                </div>
+
+                <div class="container fav-book">
+                    <h3 id="fav-book">[좋아하는 책]</h3>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.yes24.com/Product/Goods/11681152"
+                                target="_blank"
+                                >클린 코드</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.yes24.com/Product/Goods/101375809"
+                                target="_blank"
+                                >마션</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.yes24.com/Product/Goods/3510660"
+                                target="_blank"
+                                >해저 2만리</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.yes24.com/Product/Goods/17926925"
+                                target="_blank"
+                                >유지보수하기 어렵게 코딩하는 방법</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="container email">
+                    <h3 id="email">[이메일 주소]</h3>
+                    <p>
+                        이메일:
+                        <a href="mailto:jiseop1008@gmail.com"
+                            >jiseop1008@gmail.com</a
+                        >
+                    </p>
+                </div>
+            </div>
+            <hr />
+            <div class="container time-table">
+                <h3 id="schedule">[시간표]</h3>
+                <table>
+                    <thead style="text-align: center">
+                        <tr>
+                            <td>시간/요일</td>
+                            <td>월요일</td>
+                            <td>화요일</td>
+                            <td>수요일</td>
+                            <td>목요일</td>
+                            <td>금요일</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="row_1" class="row">
+                            <td>09:00-10:00</td>
+                            <td rowspan="3">
+                                <div class="time-table-info-container">
+                                    <p class="dit">웹프로그래밍</p>
+                                    <p class="dit professer">성낙준</p>
+                                    <p class="dit location">M503</p>
+                                </div>
+                            </td>
+                            <td rowspan="2">
+                                <div class="time-table-info-container">
+                                    <p class="dit">컴퓨터개론</p>
+                                    <p class="dit professer">김수현</p>
+                                    <p class="dit location">M503</p>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td rowspan="2">
+                                <div class="time-table-info-container">
+                                    <p class="dit">글쓰기</p>
+                                    <p class="dit professer">유은정</p>
+                                    <p class="dit location">U629</p>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr id="row_2" class="row">
+                            <td>10:00-11:00</td>
+                            <td rowspan="3">
+                                <div class="time-table-info-container">
+                                    <p class="dit">파이썬프로그래밍</p>
+                                    <p class="dit professer">성낙준</p>
+                                    <p class="dit location">M503</p>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr id="row_3" class="row">
+                            <td>11:00-12:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr id="row_4" class="row">
+                            <td>12:00-13:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr id="row_5" class="row">
+                            <td>13:00-14:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td rowspan="3">
+                                <div class="time-table-info-container">
+                                    <p class="dit">컴퓨터코딩과문재해결</p>
+                                    <p class="dit professer">김동균</p>
+                                    <p class="dit location">9115</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr id="row_6" class="row">
+                            <td>14:00-15:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td rowspan="3">
+                                <div class="time-table-info-container">
+                                    <p class="dit">일반수학</p>
+                                    <p class="dit professer">이용훈</p>
+                                    <p class="dit location">M503</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr id="row_7" class="row">
+                            <td>15:00-16:00</td>
+                            <td rowspan="2">
+                                <div class="time-table-info-container">
+                                    <p class="dit">컴퓨터개론</p>
+                                    <p class="dit professer">김수현</p>
+                                    <p class="dit location">M503</p>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr id="row_8" class="row">
+                            <td>16:00-17:00</td>
+                            <td></td>
+                            <td rowspan="3">
+                                <div class="time-table-info-container">
+                                    <p class="dit">파이썬프로그래밍실습</p>
+                                    <p class="dit professer">김성엽</p>
+                                    <p class="dit location">M518</p>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr id="row_9" class="row"></tr>
+                        <td>17:00-18:00</td>
+                        <td></td>
+                        <td>
+                            <div class="time-table-info-container">
+                                <p class="dit">자기개발과전공탐색(M&M)</p>
+                                <p class="dit professer">강미선</p>
+                                <p class="dit location">M503</p>
+                                <br />
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tbody>
+                </table>
+                <span class="scadule-config-container s-con flex-wrap">
+                    <input
+                        type="button"
+                        onclick="DisplayControl(this,'professer')"
+                        value="교수님 성함 숨기기"
+                        data-title="교수님 성함"
+                    />
+                    <input
+                        type="button"
+                        onclick="DisplayControl(this,'location')"
+                        value="강의실 위치 숨기기"
+                        data-title="강의실 위치"
+                    />
+                </span>
+            </div>
+            <hr />
+            <div class="container footer">
+                <footer>
+                    <p>자기소개 페이지를 읽어주셔서 감사합니다</p>
+                </footer>
+            </div>
+        </div>
+    </body>
+    <!--Wait Dom Rendering-->
+    <script type="text/javascript" src="./index.js"></script>
+</html>
